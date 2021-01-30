@@ -18,3 +18,5 @@ Below is a picture of what this may look like
 2. Next, open MatLab and navigate into the <code>Hodgkin-Huxley-MatLab-Repo</code>. It should look like this:
 
 ![matlab](images/matlab.PNG)
+
+3. Next, execute <code>addpath('simulation_core');</code> this will tell MatLab to look inside the <code>addpath('simulation_core');</code> folder for the functions we wish to call! Nothing will happen when you do this!
