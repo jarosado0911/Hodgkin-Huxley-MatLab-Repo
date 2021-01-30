@@ -33,3 +33,7 @@ as it is running you will see this:
 and when it is complete you will see this:
 
 ![finished](images/finished.PNG)
+
+The following output will be in the output folder you specified:
+ - Inside <code>sampleTest</code> there is a subfolder called <code>0Ref2.0000000</code>, this folder contains all the data from the simulation
+ - Inside <code>0Ref2.0000000</code> there is a subfolder called <code>data</code>, this contains all the voltage data at every time step, if you set the simulation to <code>0</code> then this folder will be empty.
