@@ -29,4 +29,14 @@ this code is still in development, the outputs defined above will be, removed, t
  - <code>r</code> is the radius at each node
  - <code>subset</code> is the type of node ie soma,dendrite, axon...
 
+# stencilMaker.m
+
+- <code>stencilMaker</code>  this generates the stencil matrix for the diffusion solve of the operator spliting for the Hodgkin Huxley model equations
+- <code>n</code> = number of vertices in graph geometry
+- <code>dt</code> = time step size which is fixed
+- <code>dx</code> = this is the average --> this is NOT used need to remove later!
+- <code>R</code> = this is the specific resistance
+- <code>a</code> = vector of radii at each vertex
+- <code>C</code> = this is the membrane capacitance which is fixed
+
 
