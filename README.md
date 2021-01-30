@@ -25,4 +25,7 @@ Execute <code>neuronSimTest('sample_geometry',[0],'C:/Users/jaros/Desktop/sample
   - This will tell MatLab to look inside the <code>sample_geometry</code> folder for the <code>.swc</code> geometry file, 
   - it will run the simulation on 0 refinement, 
   - the output will be saved to the desktop in <code>sampleTest</code>, 
-  - and <code>mysave</code> will save the voltage state of the entire cell at every time step.
+  - and <code>1</code> will save the voltage state of the entire cell at every time step, set it to <code>0</code> if you don't want to save voltage data.
+as it is running you will see this
+
+![running](images/running.PNG)
