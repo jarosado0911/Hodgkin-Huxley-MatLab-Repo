@@ -1,5 +1,5 @@
 function [LHS,RHS,dx,u,t,rec_u]=neuronSim(REF,dt,mysave,geomFiles,outputFolder)
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % neuronSim  this runs the Hodgkin Huxley model equations on the neuron
 % defined by the geometry(ies) in geomFiles
 %   LHS = this is the left hand side of the stencil matrix from diffusion
@@ -9,12 +9,12 @@ function [LHS,RHS,dx,u,t,rec_u]=neuronSim(REF,dt,mysave,geomFiles,outputFolder)
 %   dx = this is the average edge length
 %   t = the time vector
 %   rec_u = this is the last voltage state at the end of the simulation
-%
+% 
 %   this code is still in development, the outputs defined above will be
 %   removed, they are outputted for testing purposes
 % 
 %   Written by James Rosado 09/20/2019
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % this puts together the geomtry file name, I do REF+1 because you can't
 % index 0!
