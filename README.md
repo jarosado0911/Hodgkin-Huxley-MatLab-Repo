@@ -11,4 +11,4 @@ To run the code:
 execute the following <code>git clone https://github.com/jarosado0911/Hodgkin-Huxley-MatLab-Repo.git</code> or you can download the ZIP of the repo. 
 Below is a picture of what this may look like 
 
-![gitclone](images/gitclone.png)
+![gitclone](images/gitclone.PNG)
