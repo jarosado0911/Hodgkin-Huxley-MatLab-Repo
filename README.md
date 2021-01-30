@@ -20,6 +20,9 @@ Below is a picture of what this may look like
 ![matlab](images/matlab.PNG)
 
 3. Next, execute in the MatLab command window <code>addpath('simulation_core');</code> this will tell MatLab to look inside the <code>addpath('simulation_core');</code> folder for the functions we wish to call! Nothing will happen when you do this!
-4. Now, let us try to run a simulation. Execute 
-<code>neuronSimTest('sample_geometry',[0],'C:/Users/jaros/Desktop/sampleTest',1);</code>
-This will tell MatLab to look inside the <code>sample_geometry</code> folder for the <code>.swc</code> geometry file, it will run the simulation on 0 refinement, the output will be saved to the desktop in <code>sampleTest</code>, and <code>mysave</code> will save the voltage state of the entire cell at every time step.
+4. Now, let us try to run a simulation. 
+Execute <code>neuronSimTest('sample_geometry',[0],'C:/Users/jaros/Desktop/sampleTest',1);</code>
+  - This will tell MatLab to look inside the <code>sample_geometry</code> folder for the <code>.swc</code> geometry file, 
+  - it will run the simulation on 0 refinement, 
+  - the output will be saved to the desktop in <code>sampleTest</code>, 
+  - and <code>mysave</code> will save the voltage state of the entire cell at every time step.
