@@ -26,6 +26,10 @@ Execute <code>neuronSimTest('sample_geometry',[0],'C:/Users/jaros/Desktop/sample
   - it will run the simulation on 0 refinement, 
   - the output will be saved to the desktop in <code>sampleTest</code>, 
   - and <code>1</code> will save the voltage state of the entire cell at every time step, set it to <code>0</code> if you don't want to save voltage data.
-as it is running you will see this
+as it is running you will see this:
 
 ![running](images/running.PNG)
+
+and when it is complete you will see this:
+
+![finished](images/finished.PNG)
