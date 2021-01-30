@@ -3,6 +3,8 @@ In this repo we endeavor to simulate Hodgkin-Huxley electrical dynamics on neuro
 
 ## Software Requirements
 * Most recent version of MatLab, [MatLab](https://www.mathworks.com/products/matlab.html)
+* Recommended (for Windows Users): gitforwindows, [gitwindows](https://gitforwindows.org/)
+* MacOS users using the bash is fine 
 
 ## Example Usage
 The following steps have been tested on Windows 10 (will update when tested on Mac and Linux)
