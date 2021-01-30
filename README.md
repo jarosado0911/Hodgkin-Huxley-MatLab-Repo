@@ -19,7 +19,7 @@ Below is a picture of what this may look like
 
 ![matlab](images/matlab.PNG)
 
-3. Next, execute in the MatLab command window <code>addpath('simulation_core');</code> this will tell MatLab to look inside the <code>addpath('simulation_core');</code> folder for the functions we wish to call! Nothing will happen when you do this!
+3. Next, execute in the MatLab command window <code>addpath('simulation_core');</code> this will tell MatLab to look inside the <code>simulation_core</code> folder for the functions we wish to call! Nothing will happen when you do this!
 4. Now, let us try to run a simulation. 
   - Execute <code>neuronSimTest('sample_geometry',[0],'C:/path_to_your_Desktop/Desktop/sampleTest',1);</code>
   - This will tell MatLab to look inside the <code>sample_geometry</code> folder for the <code>.swc</code> geometry file, 
