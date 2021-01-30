@@ -29,7 +29,7 @@ Below is a picture of what this may look like
 As the simulation is running you will see this:
 
 <p float="left">
-  <img src="images/running.PNG "While Running"" alt="while running" />
+  <img src="images/running.PNG alt="while running" />
   <img src="images/finished.PNG" alt="when complete" /> 
 </p>
 
