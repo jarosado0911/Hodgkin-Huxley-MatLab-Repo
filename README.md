@@ -28,7 +28,10 @@ Below is a picture of what this may look like
   - and <code>1</code> will save the voltage state of the entire cell at every time step, set it to <code>0</code> if you don't want to save voltage data.
 As the simulation is running you will see this:
 
-![running](images/running.PNG "While Running") ![finished](images/finished.PNG "When Complete")
+<p float="left">
+  <img src="images/running.PNG "While Running"" alt="while running" />
+  <img src="images/finished.PNG" alt="when complete" /> 
+</p>
 
 The following output will be in the output folder you specified:
  - Inside <code>sampleTest</code> there is a subfolder called <code>0Ref2.0000000</code>, this folder contains all the data from the simulation
