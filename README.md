@@ -39,3 +39,6 @@ The following output will be in the output folder you specified:
  - Inside <code>0Ref2.0000000</code> there is a subfolder called <code>data</code>, this contains all the voltage data at every time step, if you set the simulation to <code>0</code> then this folder will be empty.
  - Inside <code>0Ref2.0000000</code> there are <code>.dat</code> files, these are the voltage, m,n,h state data for only the BRANCH points of the cell. These files will always be saved!
  - Inside <code>0Ref2.0000000</code> there are two <code>.mat</code> files corresponding to the voltage at the soma and the time values.
+
+## Making a Movie
+
