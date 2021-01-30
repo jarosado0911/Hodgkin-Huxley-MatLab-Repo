@@ -53,3 +53,6 @@ The following output will be in the output folder you specified:
 6. As it is running the MatLab output will show <code>frame = <some_numbers></code> and a window will open showing the plot, like below
 
 ![plot](images/plot.PNG)
+
+[![Watch the video](image/plot.PNG)](https://youtu.be/bhSdGKInvPg)
+
