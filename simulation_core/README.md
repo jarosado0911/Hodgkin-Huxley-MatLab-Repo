@@ -32,11 +32,12 @@ this code is still in development, the outputs defined above will be, removed, t
 # stencilMaker.m
 
 - <code>stencilMaker</code>  this generates the stencil matrix for the diffusion solve of the operator spliting for the Hodgkin Huxley model equations
+- the input is given by 
 - <code>n</code> = number of vertices in graph geometry
 - <code>dt</code> = time step size which is fixed
 - <code>dx</code> = this is the average --> this is NOT used need to remove later!
 - <code>R</code> = this is the specific resistance
 - <code>a</code> = vector of radii at each vertex
 - <code>C</code> = this is the membrane capacitance which is fixed
-
+- the output are the <code>LHS</code> and <code>RHS</code> of the diffusion solve, stored in sparse format! 
 
