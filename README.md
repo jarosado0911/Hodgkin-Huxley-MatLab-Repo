@@ -28,6 +28,11 @@ Below is a picture of what this may look like
   - and <code>1</code> will save the voltage state of the entire cell at every time step, set it to <code>0</code> if you don't want to save voltage data.
 As the simulation is running you will see this:
 
+<p float="left">
+ <img src="images/running.PNG" />
+ <img src="images/finished.PNG" />
+</p>
+
 ![running](images/running.PNG)
 
 and when it is complete you will see this:
