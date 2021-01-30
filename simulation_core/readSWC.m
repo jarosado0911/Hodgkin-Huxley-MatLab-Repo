@@ -1,4 +1,5 @@
 function [A,id,pid,coord,r,subset]=readSWC(filename)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % This functin reads in an swc file and outputs
 % separate attachements of the cell
 % -------------------------------------------------------------------------%

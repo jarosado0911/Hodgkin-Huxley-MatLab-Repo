@@ -1,4 +1,5 @@
 function [M,nLst,bLst,brchLst,numNodes,numEdges, meanEdge,maxEdge,minEdge,medEdge]=getGraphStructure(filename, plt,verbose)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % This function will construct the graph structure
 % and output edge information, neigbor list
 % boundary nodes and more
