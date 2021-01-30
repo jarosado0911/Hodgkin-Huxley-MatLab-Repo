@@ -18,3 +18,15 @@
  - <code>rec_u</code> = this is the last voltage state at the end of the simulation
 this code is still in development, the outputs defined above will be, removed, they are outputted for testing purposes
 
+# readSWC.m
+
+ - This functin reads in an swc file and outputs separate attachements of the cell
+ - INPUT: SWC <code>filename</code>
+ - OUTPUT: <code>A</code> is a matrix with all the information from SWC
+ - <code>id</code> is a vector containing all the nodes
+ - <code>pid</code> is a vector with the parent id nodes
+ - <code>coord</code> is the coordinates [x,y,z] for each node
+ - <code>r</code> is the radius at each node
+ - <code>subset</code> is the type of node ie soma,dendrite, axon...
+
+

@@ -1,7 +1,7 @@
 function [A,id,pid,coord,r,subset]=readSWC(filename)
 % This functin reads in an swc file and outputs
 % separate attachements of the cell
-%-------------------------------------------------------------------------%
+% -------------------------------------------------------------------------%
 % INPUT: SWC filename
 % OUTPUT: A is a matrix with all the information from SWC
 %         id is a vector containing all the nodes
@@ -9,9 +9,9 @@ function [A,id,pid,coord,r,subset]=readSWC(filename)
 %         coord is the coordinates [x,y,z] for each node
 %         r is the radius at each node
 %         subset is the type of node ie soma,dendrite, axon...
-%-------------------------------------------------------------------------%
+% -------------------------------------------------------------------------%
 %   Written by James Rosado 09/20/2019
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % This is all the attachments in the format
 % id, subset, x,y,z, radius, pid
