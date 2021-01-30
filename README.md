@@ -51,4 +51,6 @@ The following output will be in the output folder you specified:
   - <code>'sample_geometry/228-13MG.CNG_segLength=8_1d_ref_0.swc'</code> this is the precise <code>.swc</code> geometry file that you used in your simulation run.
   - <code>'C:/path_to_your_Desktop/Desktop/sample'</code> this is the path to where you want to save the video and the name, in this case it will be named <code>sample.mp4</code> and will be saved on the desktop.
 
-6. As it is running the MatLab output will show <code>frame = <some_numbers></code> and a window will open showing the plot.
+6. As it is running the MatLab output will show <code>frame = <some_numbers></code> and a window will open showing the plot, like below
+
+![plot](images/plot.PNG)
