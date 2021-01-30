@@ -1,16 +1,9 @@
-#NeuronSimTest.m
+# NeuronSimTest.m
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% this is for running the simulation
-% geomFolder: this the folder with the .swc refinement geometries
-% the geomFolder would be something like: 
-% 'D:\path_to_geometry_folder\geometryfolder
-% refinements: enter as an array [0] or can be like [0,1,2,3] for refines
-% 0 through 3
-% mysave = 0 means do not save every time step data
-% mysave = 1 means save every time step == using lots of memory!!
-% outputFolder = name of folder where you want output to go, i.e.
-% 'runCell228-13MG
-%
-%   Written by James Rosado 09/20/2019
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ - This is for running the simulation
+ - <code>geomFolder</code>: this the folder with the <code>.swc</code> refinement geometries
+ - the <code>geomFolder</code> would be something like: <code>'D:\path_to_geometry_folder\geometryfolder</code>
+ - <code>refinements</code>: enter as an array <code>[0]</code> or can be like <code>[0,1,2,3]</code> for refines 0 through 3
+ - <code>0</code> means do not save every time step data
+ - <code>1</code> means save every time step == using lots of memory!!
+ - <code>outputFolder</code> = name of folder where you want output to go
