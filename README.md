@@ -14,3 +14,7 @@ execute the following <code>git clone https://github.com/jarosado0911/Hodgkin-Hu
 Below is a picture of what this may look like 
 
 ![gitclone](images/gitclone.PNG)
+
+2. Next, open MatLab and navigate into the <code>Hodgkin-Huxley-MatLab-Repo</code>. It should look like this:
+
+![matlab](images/matlab.PNG)
