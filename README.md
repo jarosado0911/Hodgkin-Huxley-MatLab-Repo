@@ -42,3 +42,6 @@ The following output will be in the output folder you specified:
 
 ## Making a Movie
 
+5. Picking up from the example above execute in MatLab
+
+<code>makematlabmov('C:/Users/jaros/Desktop/sampleTest/0Ref2.0000000','sample_geometry/228-13MG.CNG_segLength=8_1d_ref_0.swc','C:\Users\jaros\Desktop\sample');</code>
